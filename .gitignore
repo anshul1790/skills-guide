@@ -1,5 +1,6 @@
 # Eval/benchmark workspace (generated, not source)
 .claude/skills/git-commit-workspace/
+.claude/skills/code-reviewer-workspace/
 
 # Secrets
 .env

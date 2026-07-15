@@ -1,0 +1,23 @@
+{
+  "skill_name": "code-reviewer",
+  "evals": [
+    {
+      "id": 0,
+      "prompt": "can you look over what I changed before I commit it?",
+      "expected_output": "Flags the off-by-one bug in chunkArray (src/utils.js) — slice(i, i + size - 1) drops the last element of every chunk instead of slice(i, i + size). Should be Critical or Important severity with a concrete example (e.g. chunkArray([1,2,3,4], 2) returns [[1],[3]] instead of [[1,2],[3,4]]).",
+      "files": []
+    },
+    {
+      "id": 1,
+      "prompt": "does this look safe to merge?",
+      "expected_output": "Flags a SQL injection vulnerability in getUserByEmail (src/db.js) — the email parameter is concatenated directly into the query string instead of parameterized like the existing getUserById function. Should be Critical severity with a concrete malicious input example.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "quick review before I push this?",
+      "expected_output": "The slugify function (src/text.js) is correctly implemented with no real bugs. The review should not report any Critical or Important findings, and should not invent a fake bug just to seem thorough. Minor stylistic suggestions are acceptable but not required.",
+      "files": []
+    }
+  ]
+}

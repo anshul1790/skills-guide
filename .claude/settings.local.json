@@ -21,7 +21,21 @@
       "Bash(chmod +x /Users/sahilchoudhary/Code/genai-2026/skills-guide/tools/eval-viewer/aggregate_benchmark.py)",
       "Bash(python3 /Users/sahilchoudhary/Code/genai-2026/skills-guide/tools/eval-viewer/aggregate_benchmark.py /Users/sahilchoudhary/Code/genai-2026/skills-guide/.claude/skills/git-commit-workspace/iteration-1 --skill-name git-commit)",
       "Bash(python3 /Users/sahilchoudhary/Code/genai-2026/skills-guide/tools/eval-viewer/generate_review.py /Users/sahilchoudhary/Code/genai-2026/skills-guide/.claude/skills/git-commit-workspace/iteration-1 --skill-name git-commit --benchmark /Users/sahilchoudhary/Code/genai-2026/skills-guide/.claude/skills/git-commit-workspace/iteration-1/benchmark.json --static /Users/sahilchoudhary/Code/genai-2026/skills-guide/tools/eval-viewer/test-report.html)",
-      "Bash(kill 59755 63907)"
+      "Bash(kill 59755 63907)",
+      "Bash(mkdir -p \"/Users/sahilchoudhary/Code/genai-2026/skills-guide/.claude/skills/code-reviewer/scripts\")",
+      "Bash(mkdir -p \"/Users/sahilchoudhary/Code/genai-2026/skills-guide/.claude/skills/code-reviewer/references\")",
+      "Bash(mkdir -p \"/Users/sahilchoudhary/Code/genai-2026/skills-guide/.claude/skills/code-reviewer/assets\")",
+      "Bash(mkdir -p \"/Users/sahilchoudhary/Code/genai-2026/skills-guide/.claude/skills/code-reviewer/evals\")",
+      "Bash(python3 \"/Users/sahilchoudhary/Code/genai-2026/skills-guide/.claude/skills/code-reviewer/scripts/diff_stats.py\")",
+      "Bash(python3 \"/Users/sahilchoudhary/Code/genai-2026/skills-guide/.claude/skills/code-reviewer/scripts/diff_stats.py\" --json)",
+      "Bash(mkdir -p /Users/sahilchoudhary/Code/genai-2026/skills-guide/.claude/skills/code-reviewer-workspace/iteration-1/eval-0-correctness-chunk-array-off-by-one/without_skill/outputs)",
+      "Bash(mkdir -p /Users/sahilchoudhary/Code/genai-2026/skills-guide/.claude/skills/code-reviewer-workspace/iteration-1/eval-1-security-sql-injection/without_skill/outputs)",
+      "Bash(mkdir -p \"/Users/sahilchoudhary/Code/genai-2026/skills-guide/.claude/skills/code-reviewer-workspace/iteration-1/eval-1-security-sql-injection/with_skill/outputs\")",
+      "Bash(mkdir -p /Users/sahilchoudhary/Code/genai-2026/skills-guide/.claude/skills/code-reviewer-workspace/iteration-1/eval-2-clean-diff-no-bugs/without_skill/outputs)",
+      "Bash(mkdir -p /Users/sahilchoudhary/Code/genai-2026/skills-guide/.claude/skills/code-reviewer-workspace/iteration-1/eval-0-correctness-chunk-array-off-by-one/with_skill/outputs)",
+      "Bash(mkdir -p /Users/sahilchoudhary/Code/genai-2026/skills-guide/.claude/skills/code-reviewer-workspace/iteration-1/eval-2-clean-diff-no-bugs/with_skill/outputs)",
+      "Bash(python3 /Users/sahilchoudhary/Code/genai-2026/skills-guide/tools/eval-viewer/aggregate_benchmark.py /Users/sahilchoudhary/Code/genai-2026/skills-guide/.claude/skills/code-reviewer-workspace/iteration-1 --skill-name code-reviewer --skill-path /Users/sahilchoudhary/Code/genai-2026/skills-guide/.claude/skills/code-reviewer)",
+      "Bash(nohup python3 /Users/sahilchoudhary/Code/genai-2026/skills-guide/tools/eval-viewer/generate_review.py /Users/sahilchoudhary/Code/genai-2026/skills-guide/.claude/skills/code-reviewer-workspace/iteration-1 --skill-name code-reviewer --benchmark /Users/sahilchoudhary/Code/genai-2026/skills-guide/.claude/skills/code-reviewer-workspace/iteration-1/benchmark.json --port 3117)"
     ]
   }
 }

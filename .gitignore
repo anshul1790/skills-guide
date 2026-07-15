@@ -2,6 +2,9 @@
 .claude/skills/git-commit-workspace/
 .claude/skills/code-reviewer-workspace/
 
+# Personal/local settings (machine-specific paths, not shared)
+.claude/settings.local.json
+
 # Secrets
 .env
 .env.*

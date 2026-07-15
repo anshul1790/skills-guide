@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p /Users/sahilchoudhary/Code/genai-2026/skills-guide/.claude/skills/git-commit/evals && ls /Users/sahilchoudhary/Code/genai-2026/skills-guide/.claude/skills/git-commit/)",
+      "Bash(mkdir -p /Users/sahilchoudhary/Code/genai-2026/skills-guide/.claude/skills/git-commit-workspace/iteration-1/eval-1-fix-empty-input-crash/with_skill/outputs)",
+      "Bash(mkdir -p /Users/sahilchoudhary/Code/genai-2026/skills-guide/.claude/skills/git-commit-workspace/iteration-1/eval-2-breaking-pagination-required/without_skill/outputs)",
+      "Bash(mkdir -p /Users/sahilchoudhary/Code/genai-2026/skills-guide/.claude/skills/git-commit-workspace/iteration-1/eval-2-breaking-pagination-required/with_skill/outputs)",
+      "Read(//Users/sahilchoudhary/Library/Application Support/Claude/local-agent-mode-sessions/skills-plugin/a0391b15-fa91-4129-a17a-e9c45eff12e4/f7218ccc-9038-4757-8583-c71d4d6d71f1/skills/skill-creator/**)",
+      "Bash(python3 -m scripts.aggregate_benchmark \"/Users/sahilchoudhary/Code/genai-2026/skills-guide/.claude/skills/git-commit-workspace/iteration-1\" --skill-name git-commit)",
+      "Bash(python3 -m scripts.aggregate_benchmark \"/Users/sahilchoudhary/Code/genai-2026/skills-guide/.claude/skills/git-commit-workspace/iteration-1\" --skill-name git-commit --skill-path \"/Users/sahilchoudhary/Code/genai-2026/skills-guide/.claude/skills/git-commit\")",
+      "Bash(python3 '/Users/sahilchoudhary/Library/Application Support/Claude/local-agent-mode-sessions/skills-plugin/a0391b15-fa91-4129-a17a-e9c45eff12e4/f7218ccc-9038-4757-8583-c71d4d6d71f1/skills/skill-creator/eval-viewer/generate_review.py' --help)",
+      "Bash(nohup python3 '/Users/sahilchoudhary/Library/Application Support/Claude/local-agent-mode-sessions/skills-plugin/a0391b15-fa91-4129-a17a-e9c45eff12e4/f7218ccc-9038-4757-8583-c71d4d6d71f1/skills/skill-creator/eval-viewer/generate_review.py' /Users/sahilchoudhary/Code/genai-2026/skills-guide/.claude/skills/git-commit-workspace/iteration-1 --skill-name git-commit --benchmark /Users/sahilchoudhary/Code/genai-2026/skills-guide/.claude/skills/git-commit-workspace/iteration-1/benchmark.json)",
+      "Bash(echo \"PID: $!\")",
+      "Read(//tmp/**)",
+      "Bash(lsof -iTCP -sTCP:LISTEN -P)",
+      "Bash(open http://localhost:3117)",
+      "Bash(cp '/Users/sahilchoudhary/Library/Application Support/Claude/local-agent-mode-sessions/skills-plugin/a0391b15-fa91-4129-a17a-e9c45eff12e4/f7218ccc-9038-4757-8583-c71d4d6d71f1/skills/skill-creator/eval-viewer/generate_review.py' /Users/sahilchoudhary/Code/genai-2026/skills-guide/tools/eval-viewer/generate_review.py)",
+      "Bash(cp '/Users/sahilchoudhary/Library/Application Support/Claude/local-agent-mode-sessions/skills-plugin/a0391b15-fa91-4129-a17a-e9c45eff12e4/f7218ccc-9038-4757-8583-c71d4d6d71f1/skills/skill-creator/eval-viewer/viewer.html' /Users/sahilchoudhary/Code/genai-2026/skills-guide/tools/eval-viewer/viewer.html)",
+      "Bash(cp '/Users/sahilchoudhary/Library/Application Support/Claude/local-agent-mode-sessions/skills-plugin/a0391b15-fa91-4129-a17a-e9c45eff12e4/f7218ccc-9038-4757-8583-c71d4d6d71f1/skills/skill-creator/scripts/aggregate_benchmark.py' /Users/sahilchoudhary/Code/genai-2026/skills-guide/tools/eval-viewer/aggregate_benchmark.py)",
+      "Bash(chmod +x /Users/sahilchoudhary/Code/genai-2026/skills-guide/tools/eval-viewer/generate_review.py)",
+      "Bash(chmod +x /Users/sahilchoudhary/Code/genai-2026/skills-guide/tools/eval-viewer/aggregate_benchmark.py)",
+      "Bash(python3 /Users/sahilchoudhary/Code/genai-2026/skills-guide/tools/eval-viewer/aggregate_benchmark.py /Users/sahilchoudhary/Code/genai-2026/skills-guide/.claude/skills/git-commit-workspace/iteration-1 --skill-name git-commit)",
+      "Bash(python3 /Users/sahilchoudhary/Code/genai-2026/skills-guide/tools/eval-viewer/generate_review.py /Users/sahilchoudhary/Code/genai-2026/skills-guide/.claude/skills/git-commit-workspace/iteration-1 --skill-name git-commit --benchmark /Users/sahilchoudhary/Code/genai-2026/skills-guide/.claude/skills/git-commit-workspace/iteration-1/benchmark.json --static /Users/sahilchoudhary/Code/genai-2026/skills-guide/tools/eval-viewer/test-report.html)",
+      "Bash(kill 59755 63907)"
+    ]
+  }
+}

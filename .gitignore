@@ -1,0 +1,9 @@
+# Eval/benchmark workspace (generated, not source)
+.claude/skills/git-commit-workspace/
+
+# Secrets
+.env
+.env.*
+*.pem
+*.key
+*credentials*.json

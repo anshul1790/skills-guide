@@ -1,0 +1,23 @@
+{
+  "skill_name": "git-commit",
+  "evals": [
+    {
+      "id": 0,
+      "prompt": "I've made some changes in this repo, can you commit them for me?",
+      "expected_output": "A feat commit: header `feat(...): ...` (or no scope) describing the new formatCurrency capability added to src/format.js, staged and committed.",
+      "files": []
+    },
+    {
+      "id": 1,
+      "prompt": "commit this",
+      "expected_output": "A fix commit: header `fix(...): ...` describing that parseList now handles empty input instead of crashing, staged and committed.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "please commit my changes to the api helper",
+      "expected_output": "A breaking-change commit: header uses `!` (e.g. `feat(api)!:` or `fix(api)!:`) and includes a `BREAKING CHANGE:` footer explaining that listItems now requires a pagination argument. Agent should ideally confirm the breaking nature before committing.",
+      "files": []
+    }
+  ]
+}
